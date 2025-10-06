@@ -5,9 +5,9 @@ var apps = [
       'image': 'assets/images/add.png'
     },
     {
-      "id": "rammerhead",
-      "title": "Rammerhead",
-      "url": "https://goodmathdontblock.zenrelax.ro/",
+      "id": "holy",
+      "title": "Holy UB",
+      "url": "https://dummygummy.xyz/",
       'image': 'assets/images/placeholder.png'
       
     },
