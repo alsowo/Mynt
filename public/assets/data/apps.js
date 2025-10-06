@@ -5,10 +5,10 @@ var apps = [
       'image': 'assets/images/add.png'
     },
     {
-      "id": "google",
-      "title": "Google",
-      "url": "https://www.google.com/?safe=active&ssui=on",
-      'image': 'https://img.freepik.com/free-icon/search_318-265146.jpg'
+      "id": "rammerhead",
+      "title": "rammerhead",
+      "url": "browser.rammerhead.org",
+      'image': 'assets/images/placeholder.png'
       
     },
     {
