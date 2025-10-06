@@ -27,12 +27,12 @@ var tabPresets = {
         name: 'Google Docs',
         icon: 'https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico'
     },
-    classroom: {
-        name: 'Home',
-        icon: 'https://ssl.gstatic.com/classroom/ic_product_classroom_32.png'
+    canvas: {
+        name: 'Dashboard',
+        icon: 'https://aaaa.instructure.com/favicon.ico'
     },
     default: {
-        name: 'Art Class',
+        name: 'TS3',
         icon: '/assets/images/icon.png'
     }
 }
