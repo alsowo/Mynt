@@ -7,7 +7,7 @@ var apps = [
     {
       "id": "rammerhead",
       "title": "Rammerhead",
-      "url": "https://browser.rammerhead.org",
+      "url": "https://goodmathdontblock.zenrelax.ro/",
       'image': 'assets/images/placeholder.png'
       
     },
