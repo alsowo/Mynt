@@ -6,7 +6,7 @@ var apps = [
     },
     {
       "id": "rammerhead",
-      "title": "rammerhead",
+      "title": "Rammerhead",
       "url": "browser.rammerhead.org",
       'image': 'assets/images/placeholder.png'
       
