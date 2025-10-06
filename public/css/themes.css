@@ -1,7 +1,6 @@
 body[theme="main"] {
     --text-color: #ffffff;
     --background: linear-gradient(#6d7b8c, #394554);
-    --navbar: #001126;
     --accent: #0f2c4f;
 }
 body[theme="midnight"] {
