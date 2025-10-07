@@ -32,6 +32,7 @@
 
     <div class="center-container">
       <h1>Welcome to <span>TS3</span></h1>
+      <p id="splash"></p>
       <br />
       <button onclick="window.location.href='/'" class="button play">Placeholder</button>
       <button onclick="launchab()" id="launchab" class="button play">Launch in about:blank</button>
@@ -49,6 +50,14 @@
       </div>
     </div>
   </body>
+
+   <script>
+    fetch('./assets/data/splash.json')
+      .then((res) => res.json())
+      .then((data) => {
+        document.querySelector('#splash').innerHTML = data[Math.floor(Math.random() * data.length)]
+      })
+  </script>
 
   <script src="./js/index.js"></script>
 
