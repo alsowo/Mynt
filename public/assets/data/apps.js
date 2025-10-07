@@ -25,10 +25,11 @@ var apps = [
       "description": "if the icons dont load you can see if the site is unblocked (kleki.com)"
     },   
     {
-      "id": "telegram",
-      "title": "Telegram",
-      "url": "https://web.telegram.org/a/",
-      'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png'
+      "id": "fmhy",
+      "title": "Free Media Heck Yeah",
+      "url": "https://fmhy.net",
+      'image': 'https://fmhy.net/favicon.ico'
+      "desciption": "most of the site leads to piracy as that is its main goal so if you dont want to pirate stuff i recommend ignoring this app"
     }, 
     {
       "id": "Axiom",
