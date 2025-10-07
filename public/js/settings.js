@@ -33,7 +33,7 @@ var tabPresets = {
     },
     default: {
         name: 'TS3',
-        icon: '/assets/images/icon.png'
+        icon: '/assets/images/ico.png'
     }
 }
 
