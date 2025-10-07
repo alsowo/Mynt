@@ -25,10 +25,10 @@ var apps = [
       "description": "if the icons dont load you can see if the site is unblocked (kleki.com)"
     },   
     {
-      "id": "fmhy",
-      "title": "Free Media Heck Yeah",
-      "url": "https://fmhy.net",
-      'image': 'https://fmhy.net/favicon.ico',
+      "id": "itch",
+      "title": "itch.io",
+      "url": "https://itch.io/",
+      'image': 'assets/images/placeholder.png',
       "desciption": "most of the site leads to piracy as that is its main goal so if you dont want to pirate stuff i recommend ignoring this app"
     }, 
     {
@@ -42,7 +42,7 @@ var apps = [
       "id": "geforce",
       "title": "GeForce NOW (may not work)",
       "url": "https://play.geforcenow.com",
-      'image': 'https://raw.githubusercontent.com/proudparrot2/cdn/main/8z9zeDIT_400x400-removebg-preview.png'
+      'image': 'assets/images/placeholder.png'
     },
     {
       'id': 'vscode',
@@ -60,7 +60,7 @@ var apps = [
       "id": "reddit",
       "title": "Reddit",
       "url": "https://reddit.com",
-      'image': 'https://www.redditinc.com/assets/images/site/reddit-logo.png'
+      'image': 'assets/images/placeholder.png'
     },
     {
       "id": "youtube",
@@ -90,7 +90,7 @@ var apps = [
       'id': 'movie-web',
       'title': 'movie-web',
       'url': 'http://movie-web.app/',
-      'image': 'https://github.com/movie-web/movie-web/blob/dev/public/android-chrome-512x512.png?raw=true'
+      'image': 'assets/images/placeholder.png'
     },
     {
       'id': 'coolmathgames',
