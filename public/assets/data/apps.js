@@ -28,7 +28,7 @@ var apps = [
       "id": "fmhy",
       "title": "Free Media Heck Yeah",
       "url": "https://fmhy.net",
-      'image': 'https://fmhy.net/favicon.ico'
+      'image': 'https://fmhy.net/favicon.ico',
       "desciption": "most of the site leads to piracy as that is its main goal so if you dont want to pirate stuff i recommend ignoring this app"
     }, 
     {
