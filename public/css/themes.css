@@ -1,5 +1,5 @@
 body[theme="main"] {
-    --text-color: #ffffff;
+    --text-color: black;
     --background: linear-gradient(#6d7b8c, #394554);
     --accent: #0f2c4f;
 }
@@ -85,7 +85,6 @@ body[theme="modern"] {
     --accent: #0284d4;
 }
 body[theme="galaxy"] {
-    --text-color: black;
-    --background: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3dmNjEweDdvdjM4OTJ0ZWs4ZmhpYnAybzNwd3huZDJ2YnYzOWhrbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O0zVNAjUC0m3jxiflK/giphy.gif");
-    --navbar: #2c0252;
-    --accent: #915107;
+    --text-color: white;
+    --background: url("https://cdn.dribbble.com/userupload/21049699/file/original-e7bea7f104918effabdde436c680a8ea.gif");
+    --accent: #2c0252;
