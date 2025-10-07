@@ -22,6 +22,7 @@ var apps = [
       "title": "Kleki",
       "url": "https://kleki.com",
       'image': 'https://kleki.com/page-assets/img/kleki-logomark.svg'
+      "description": "if the icons dont load you can see if the site is unblocked (kleki.com)"
     },   
     {
       "id": "telegram",
