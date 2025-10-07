@@ -24,10 +24,11 @@ var apps = [
       'image': 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/512px-Telegram_logo.svg.png'
     }, 
     {
-      "id": "guilded",
-      "title": "Guilded",
-      "url": "https://www.guilded.gg/",
-      'image': 'https://yt3.googleusercontent.com/cPlwwgZkQQgHRLAg7jvJG4yKGLDId6NH7H_S87TCoEV_dbsF9Me_4YSBL5DyMsndx6hzoZxHUw=s176-c-k-c0x00ffffff-no-rj'
+      "id": "Axiom",
+      "title": "Axiom",
+      "url": "https://pleasedontforgetme.marimarithegoat.casacam.net/main.html",
+      'image': 'https://images-ext-1.discordapp.net/external/C-H20cVnN6THptsvquhSWC9cmDKsecEeuEY8Llw82Rg/%3Fsize%3D512/https/cdn.discordapp.com/avatars/1261706323297435721/591c81c97a3c78e0cdad8b71201985fb.png?format=webp&quality=lossless&width=563&height=563',
+      "description": "Axiom is another web proxy and yes im stealing the whole thing (message me if wanted removed)"
     },
     {
       "id": "geforce",
