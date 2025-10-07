@@ -2,7 +2,7 @@ const params = new URLSearchParams(window.location.search)
 if (params.get("game")) {
     games.forEach(async game => {
         if (game.id != params.get("game")) return
-        document.title = `${game.title} | TS3`
+        document.title = `${game.title} | Mynt`
         document.querySelector("#gameImage").src = game.image
         document.querySelector("#gameTitle").innerHTML = game.title
         if (game.description) document.querySelector("#gameDescription").innerHTML = game.description
