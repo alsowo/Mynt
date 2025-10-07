@@ -30,9 +30,9 @@
   if ('getBattery' in navigator) {
     navigator.getBattery().then((battery) => {
       const { level, charging } = battery;
-      const status = charging ? 'charging' : 'Battery is at';
+      const status = charging ? 'Charging' : 'Your at';
       const percent = `${Math.round(level * 100)}%`;
-      const message = `${status} ${percent}`;
+      const message = `${status} ${percent} Battery        `;
       document.getElementById('batteryStatus').textContent = message;
     });
   }
