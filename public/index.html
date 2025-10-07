@@ -23,7 +23,20 @@
       <p id="time"></p>
 
       <div class="navitems">
-        <iframe src="https://battery-level-indicator-psi.vercel.app/" frameborder="0" width="202" height="57" allowtransparency="true"></iframe>
+<!-- The battery is not charging and the current level is 94% -->
+<span id="batteryStatus"></span>
+
+<script>
+  if ('getBattery' in navigator) {
+    navigator.getBattery().then((battery) => {
+      const { level, charging } = battery;
+      const status = charging ? 'charging' : 'not charging';
+      const percent = `${Math.round(level * 100)}%`;
+      const message = `The battery is ${status} and the current level is ${percent}`;
+      document.getElementById('batteryStatus').textContent = message;
+    });
+  }
+</script>
         <div class="navitem"><a selected href="/">Home</a></div>
         <div class="navitem"><a href="/gs.html">Games</a></div>
         <div class="navitem"><a href="/apps.html">Apps</a></div>
