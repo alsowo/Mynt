@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/icon.png"
+      type="image/png"
+    />
+    <title>Mynt</title>
+    <link rel="stylesheet" href="./css/master.css" />
+    <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
+    <script src="/uv/uv.config.js"></script>
+    <script src="./js/preload.js"></script>
+    
+    <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
+  </head>
+  <body theme="main">
+    <nav>
+      <div class="logo">
+        <img src="./assets/images/icon.png" alt="Logo" draggable="false" />
+      </div>
+      <p id="time"></p>
+      <div class="navitems">
+        <div class="navitem"><a href="/">Home</a></div>
+        <div class="navitem"><a href="/gs.html">Games</a></div>
+        <div class="navitem"><a href="/apps.html">Apps</a></div>
+        <div class="navitem"><a href="/movies.html">Movies</a></div>
+        <div class="navitem"><a href="/search.html">Search</a></div>
+      </div>
+    </nav>
+    <div class="center-container">
+      <h1>Mynt 0.0.3 PB</h1>
+      <p id="splash">
+        - added Time indicator
+        - added Battery indicator
+        - Rebranded to Mynt
+        - added Space and Artclass themes
+        - Fixed some icons
+        - Deleted whole games list (replacing soon!)
+        - Beta Test Release
+      </p>
+      <br />
+      <button onclick="window.location.href='/index.html'" class="button play">
+        Done reading?
+      </button>
+    </div>
+    <script src="./js/index.js"></script>
+    
+    <script type="text/javascript">
+        aclib.runAutoTag({
+            zoneId: '6hmeyutild',
+        });
+    </script>
+  </body>
+</html>
