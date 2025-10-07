@@ -49,7 +49,7 @@ document.head.appendChild(hover)
 
 // Google Analytics
 var googleAnalytics = document.createElement('script')
-googleAnalytics.src = 'https://www.googletagmanager.com/gtag/js?id=G-66ZE075DLD'
+googleAnalytics.src = ''
 googleAnalytics.async = true
 document.head.appendChild(googleAnalytics)
 
