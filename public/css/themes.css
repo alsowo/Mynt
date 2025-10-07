@@ -1,7 +1,7 @@
 body[theme="main"] {
     --text-color: black;
-    --background: linear-gradient(#6d7b8c, #394554);
-    --accent: #377ed4;
+    --background: linear-gradient(#b3edab, #3e9432);
+    --accent: #93ef87;
 }
 body[theme="midnight"] {
     --text-color: white;
