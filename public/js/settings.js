@@ -32,7 +32,7 @@ var tabPresets = {
         icon: 'https://aaaa.instructure.com/favicon.ico'
     },
     default: {
-        name: 'TS3',
+        name: 'Mynt',
         icon: '/assets/images/ico.png'
     }
 }
