@@ -84,3 +84,8 @@ body[theme="modern"] {
     --navbar: #313131;
     --accent: #0284d4;
 }
+body[theme="galaxy"] {
+    --text-color: black;
+    --background: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3dmNjEweDdvdjM4OTJ0ZWs4ZmhpYnAybzNwd3huZDJ2YnYzOWhrbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O0zVNAjUC0m3jxiflK/giphy.gif");
+    --navbar: #2c0252;
+    --accent: #915107;
