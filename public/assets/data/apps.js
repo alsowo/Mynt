@@ -28,8 +28,7 @@ var apps = [
       "id": "itch",
       "title": "itch.io",
       "url": "https://itch.io/",
-      'image': 'assets/images/placeholder.png',
-      "desciption": "most of the site leads to piracy as that is its main goal so if you dont want to pirate stuff i recommend ignoring this app"
+      'image': 'assets/images/placeholder.png'
     }, 
     {
       "id": "Axiom",
