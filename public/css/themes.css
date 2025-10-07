@@ -1,5 +1,5 @@
 body[theme="main"] {
-    --text-color: black;
+    --text-color: white;
     --background: linear-gradient(#b3edab, #3e9432);
     --navbar: #0d5a03;
     --accent: #93ef87;
