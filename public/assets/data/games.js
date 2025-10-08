@@ -6,10 +6,16 @@ var games = [
   },
   {
     id: 'osu',
-    title: 'osu! (yes this is the only game rn lol)',
+    title: 'osu!',
     description: 'A web version of osu!',
     url: 'https://web-osu.github.io/',
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Osu%21_Logo_2016.svg/1200px-Osu%21_Logo_2016.svg.png'
+  },
+  {
+    id: 'fnf',
+    title: 'fnf (friday night funkin'),
+    url: 'https://fnf.kdata1.com/2025/fnf/7500/',
+    image: 'https://ih1.redbubble.net/image.2228225012.4308/flat,750x,075,f-pad,750x1000,f8f8f8.jpg'
   }
 ]
 games.sort(function (a, b) {
