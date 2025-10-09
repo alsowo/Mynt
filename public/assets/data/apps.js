@@ -31,11 +31,11 @@ var apps = [
       'image': 'assets/images/placeholder.png'
     }, 
     {
-      "id": "Axiom",
-      "title": "Axiom",
-      "url": "https://pleasedontforgetme.marimarithegoat.casacam.net/main.html",
-      'image': 'https://images-ext-1.discordapp.net/external/C-H20cVnN6THptsvquhSWC9cmDKsecEeuEY8Llw82Rg/%3Fsize%3D512/https/cdn.discordapp.com/avatars/1261706323297435721/591c81c97a3c78e0cdad8b71201985fb.png?format=webp&quality=lossless&width=563&height=563',
-      "description": "Axiom is another web proxy and yes im stealing the whole thing (message me if wanted removed)"
+      "id": "TB",
+      "title": "Terbium",
+      "url": "terbiumon.top",
+      'image': '/assets/images/placeholder.png',
+      "description": "Terbium OS is pretty kool i think"
     },
     {
       "id": "geforce",
