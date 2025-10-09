@@ -38,12 +38,6 @@ var apps = [
       "description": "Terbium OS is pretty kool i think"
     },
     {
-      "id": "geforce",
-      "title": "GeForce NOW (may not work)",
-      "url": "https://play.geforcenow.com",
-      'image': 'assets/images/placeholder.png'
-    },
-    {
       'id': 'vscode',
       'title': 'Visual Studio Code',
       'url': 'https://vscode.dev/',
@@ -86,12 +80,6 @@ var apps = [
       'image': 'https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png'
     },
     {
-      'id': 'movie-web',
-      'title': 'movie-web',
-      'url': 'http://movie-web.app/',
-      'image': 'assets/images/placeholder.png'
-    },
-    {
       'id': 'coolmathgames',
       'title': 'Cool Math Games',
       'url': 'https://coolmathgames.com',
@@ -103,27 +91,6 @@ var apps = [
       'url': 'https://win11.blueedge.me/',
       "image": "https://cdn.upload.systems/uploads/lnysPmIS.png",
       "description": "A remake of the Windows 11 UI in React.js"
-    },
-    {
-      'id': 'win10',
-      'title': 'Windows 10 in React',
-      'url': 'https://win-10.vercel.app/',
-      "image": "https://downlody.com/windows/files/image/Windows-10-icon.png",
-      "description": "Windows 10 recreation in React.js"
-    },
-    {
-      'id': 'winxp',
-      'title': 'Windows XP in React',
-      'url': 'https://www.oonjaa.com/',
-      "image": "https://archive.org/services/img/1d9464dbff7a1630882d0e2090cb714c",
-      "description": "Windows XP recreation in React.js"
-    },
-    {
-      'id': 'gbaemulator',
-      'title': 'GBA Emulator',
-      'url': 'https://cattn.github.io/gba',
-      "image": "https://cattn.github.io/gba/pwa/apple-icon-180.png",
-      "description": "A Game Boy Advance retro emulator with over 3000 games, and other consoles as well"
     }
   ]
   
