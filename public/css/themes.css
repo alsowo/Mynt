@@ -93,7 +93,6 @@ body[theme="galaxy"] {
 body[theme="spooky"] {
     --text-color: #de7b2f;
     --background: url("https://i.pinimg.com/originals/76/31/8e/76318e01125c8c910e5b28b0a8301ab4.gif");
-    --navbar: #d6d2ce;
     --accent: #318e07;
 }
 body[theme="neru"] {
