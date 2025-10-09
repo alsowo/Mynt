@@ -13,7 +13,7 @@ var games = [
   },
   {
     id: 'fnf',
-    title: 'fnf (friday night funkin'),
+    title: 'fnf (friday night funkin)',
     url: 'https://fnf.kdata1.com/2025/fnf/7500/',
     image: 'https://ih1.redbubble.net/image.2228225012.4308/flat,750x,075,f-pad,750x1000,f8f8f8.jpg'
   }
