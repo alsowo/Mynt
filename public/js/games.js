@@ -8,7 +8,7 @@ games.forEach(game => {
   card.classList.add("card")
 
   if (game.image) image.src = game.image
-  if (!game.image) image.src = "https://www.pngkey.com/png/full/167-1670247_white-globe-icon-png-holy-bible-new-international.png"
+  if (!game.image) image.src = "/assets/images/placeholder.png"
   if (game.description) descrip.innerHTML = game.description
   image.loading = "lazy"
   text.innerHTML = game.title
