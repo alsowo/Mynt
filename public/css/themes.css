@@ -89,3 +89,10 @@ body[theme="galaxy"] {
     --text-color: white;
     --background: url("https://plus.unsplash.com/premium_photo-1663047540698-12e93c082dda?q=80&w=6000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     --accent: #2c0252;
+}
+body[theme="spooky"] {
+    --text-color: #de7b2f;
+    --background: url("https://i.pinimg.com/originals/76/31/8e/76318e01125c8c910e5b28b0a8301ab4.gif");
+    --navbar: #d6d2ce;
+    --accent: #318e07;
+}
