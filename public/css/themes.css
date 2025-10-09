@@ -105,5 +105,11 @@ body[theme="rain"] {
     --text-color: white;
     --background: url("https://cdnb.artstation.com/p/assets/images/images/023/743/143/original/valentin-hume-rainymoodresized.gif?1580214826");
     --navbar: #aba6a6;
-    --accent: url("https://i.pinimg.com/originals/ca/0e/95/ca0e95b709b975f9e48be1f932f44d64.gif");
+    --accent: #0956a5;
+}
+body[theme="interstellar"] {
+    --text-color: white;
+    --background: url("https://raw.githubusercontent.com/UseInterstellar/Interstellar/refs/heads/main/static/assets/media/background/full-main.png");
+    --navbar: #131313;
+    --accent: #5e5e5e;
 }
