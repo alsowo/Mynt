@@ -96,3 +96,9 @@ body[theme="spooky"] {
     --navbar: #d6d2ce;
     --accent: #318e07;
 }
+body[theme="neru"] {
+    --text-color: white;
+    --background: url("https://wallpapercave.com/wp/wp10278708.png");
+    --navbar: #474744;
+    --accent: #d9d213;
+}
