@@ -109,7 +109,7 @@ body[theme="rain"] {
 }
 body[theme="interstellar"] {
     --text-color: white;
-    --background: url("https://raw.githubusercontent.com/UseInterstellar/Interstellar/refs/heads/main/static/assets/media/background/full-main.png");
+    --background: url("/assets/images/2025_10_09_0uj_Kleki.png");
     --navbar: #131313;
     --accent: #5e5e5e;
 }
