@@ -16,6 +16,20 @@ var games = [
     title: 'fnf (friday night funkin)',
     url: 'https://fnf.kdata1.com/2025/fnf/7500/',
     image: 'https://ih1.redbubble.net/image.2228225012.4308/flat,750x,075,f-pad,750x1000,f8f8f8.jpg'
+  },
+  {
+    id: 'gd',
+    title: 'Geometry Dash',
+    description: 'this is poorly made but it runs better then the scratch version so',
+    url: 'https://geometrydash-lite.io/',
+    image: 'https://static.wikia.nocookie.net/logopedia/images/4/41/Geometry_Dash_Icon.svg/revision/latest?cb=20220220121501'
+  },
+  {
+    id: 'eagler',
+    title: 'EaglerCraft',
+    description: 'yes this is tuffclient',
+    url: 'https://eaglercraft.dev/clients/TuffClientWASM/index.html',
+    image: 'https://static.wikia.nocookie.net/eaglercraft-reboot/images/a/a3/Eaglercraft_Origin.jpeg/revision/latest/smart/width/250/height/250?cb=20241202211458'
   }
 ]
 games.sort(function (a, b) {
