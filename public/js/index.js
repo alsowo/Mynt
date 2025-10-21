@@ -27,13 +27,22 @@ function loadcustomapp() {
     })
 }
 
-if (localStorage.getItem('launchdata') && window.self !== window.top) {
+if (localStorage.getItem('launchblank') && window.self !== window.top) {
   launchdata()
 }
 
 function launchdata() {
-  const tab = window.open('data:text/html;,<embed type="text/plain" width="100%" height="100%" src="https://www.mynt.mom">">')
-  window.parent.window.location.replace(localStorage.getItem('panicurl') || 'https://google.com')
+  const tab = window.open('data:text/html:,', '_blank')
+  const iframe = tab.document.createElement('iframe')
+  const stl = iframe.style
+  stl.border = stl.outline = 'none'
+  stl.width = '100vw'
+  stl.height = '100vh'
+  stl.position = 'fixed'
+  stl.left = stl.right = stl.top = stl.bottom = '0'
+  iframe.src = self.location
+  tab.document.body.appendChild(iframe)
+  window.parent.window.location.replace(localStorage.getItem('panicurl') || 'https://classroom.google.com/h')
 }
 
 if (window.self !== window.self) document.querySelector('#launchdata').style.display = 'none'
