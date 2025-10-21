@@ -102,7 +102,7 @@ body[theme="neru"] {
     --accent: #d9d213;
 }
 body[theme="weather"] {
-    --text-color: #9cb3e5;
+    --text-color: #221d77;
     --background: url("https://pbs.twimg.com/media/GgfW2XVXEAAyoMa.jpg");
     --navbar: #6060ba;
     --accent: white;
