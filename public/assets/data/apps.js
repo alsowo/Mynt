@@ -9,6 +9,7 @@ var apps = [
       "title": "Suggestions",
       "url": "https://docs.google.com/forms/d/e/1FAIpQLSewQT2YM5QHxk_l4daXSJw4s_9wOEFnF5A8U9ipM0IAl_ppBg/viewform?usp=header",
       'image': 'assets/images/placeholder.png'
+    },
     {
       "id": "holy",
       "title": "Holy UB",
