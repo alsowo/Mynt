@@ -27,9 +27,11 @@ function loadcustomapp() {
     })
 }
 function launchdata() {
-  const dataUrl = "data:text/html;,<embed width=100% height=100% src=https://www.mynt.mom>/embed>";
-  window.open(dataUrl, '_blank');
-  window.parent.window.location.replace(localStorage.getItem('panicurl') || 'https://google.com')
+const htmlContent = "<embed width=100% height=100% src=https://www.mynt.mom>/embed>";
+const blob = new Blob([htmlContent], { type: "text/html" });
+const blobUrl = URL.createObjectURL(blob);
+window.open(blobUrl, "_blank");
+window.parent.window.location.replace(localStorage.getItem('panicurl') || 'https://google.com')
 }
 
 function launchab() {
