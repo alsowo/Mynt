@@ -26,12 +26,13 @@ function loadcustomapp() {
       window.location.href = self.location
     })
 }
-
-if (localStorage.getItem('launchdata') && window.self !== window.top) {
-  launchdata()
+function launchdata() {
+  const dataUrl = "data:text/html;,<embed width=100% height=100% src=https://www.mynt.mom>/embed>";
+  window.open(dataUrl, '_blank');
+  window.parent.window.location.replace(localStorage.getItem('panicurl') || 'https://google.com')
 }
 
-function launchdata() {
+function launchab() {
   const tab = window.open('data:text/html:,', '_blank')
   const iframe = tab.document.createElement('iframe')
   const stl = iframe.style
@@ -45,7 +46,7 @@ function launchdata() {
   window.parent.window.location.replace(localStorage.getItem('panicurl') || 'https://classroom.google.com/h')
 }
 
-if (window.self !== window.self) document.querySelector('#launchdata').style.display = 'none'
+if (window.self !== window.self) document.querySelector('#launchab').style.display = 'none'
 
 function loadcustomgame() {
   if (!getObj('customgames')) {
