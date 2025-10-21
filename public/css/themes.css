@@ -101,9 +101,9 @@ body[theme="neru"] {
     --navbar: #474744;
     --accent: #d9d213;
 }
-body[theme="rain"] {
+body[theme="weather"] {
     --text-color: white;
-    --background: url("https://cdnb.artstation.com/p/assets/images/images/023/743/143/original/valentin-hume-rainymoodresized.gif?1580214826");
+    --background: url("https://pbs.twimg.com/media/GgfW2XVXEAAyoMa.jpg");
     --navbar: #aba6a6;
     --accent: #0956a5;
 }
