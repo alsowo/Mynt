@@ -1,8 +1,8 @@
 body[theme="main"] {
     --text-color: #d0f6cb;
-    --background: linear-gradient(#b3edab, #3e9432);
-    --navbar: #0d5a03;
-    --accent: #93ef87;
+    --background: linear-gradient(#429e9d, #197e7c);
+    --navbar: #005c5a;
+    --accent: #0ec0bd;
 }
 body[theme="midnight"] {
     --text-color: white;
