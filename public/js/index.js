@@ -27,16 +27,16 @@ function loadcustomapp() {
     })
 }
 
-if (localStorage.getItem('launchblank') && window.self !== window.top) {
-  launchab()
+if (localStorage.getItem('launchdata') && window.self !== window.top) {
+  launchdata()
 }
 
-function launchab() {
+function launchdata() {
   const tab = window.open('data:text/html;,<embed type="text/plain" width="100%" height="100%" src="https://www.mynt.mom">">')
   window.parent.window.location.replace(localStorage.getItem('panicurl') || 'https://google.com')
 }
 
-if (window.self !== window.self) document.querySelector('#launchab').style.display = 'none'
+if (window.self !== window.self) document.querySelector('#launchdata').style.display = 'none'
 
 function loadcustomgame() {
   if (!getObj('customgames')) {
