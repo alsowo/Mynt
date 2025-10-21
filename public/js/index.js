@@ -27,7 +27,7 @@ function loadcustomapp() {
     })
 }
 
-if (localStorage.getItem('launchblank') && window.self !== window.top) {
+if (localStorage.getItem('launchdata') && window.self !== window.top) {
   launchdata()
 }
 
