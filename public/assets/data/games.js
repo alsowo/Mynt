@@ -30,7 +30,12 @@ var games = [
     description: 'yes this is tuffclient',
     url: 'https://eaglercraft.dev/clients/TuffClientWASM/index.html',
     image: 'https://static.wikia.nocookie.net/eaglercraft-reboot/images/a/a3/Eaglercraft_Origin.jpeg/revision/latest/smart/width/250/height/250?cb=20241202211458'
-  }
+  },
+  {
+    id: 'omori',
+    title: 'Omori',
+    url: 'https://rawcdn.githack.com/genizy/web-port/4e018d7f2ca2b3d77ecfd0123d2926421e2b26a5/omori-fixed/index.html',
+    image: 'https://static.wikia.nocookie.net/omori/images/8/89/Omori_Neutral_%28No_Background%29.gif/revision/latest?cb=20211217073238'
 ]
 games.sort(function (a, b) {
   return a.title.localeCompare(b.title);
