@@ -20,8 +20,8 @@ var games = [
   {
     id: 'gd',
     title: 'Geometry Dash',
-    description: 'this is poorly made but it runs better then the scratch version so',
-    url: 'https://geometrydash-lite.io/',
+    description: 'I somehow got the offical gd lite on here',
+    url: 'https://rawcdn.githack.com/genizy/google-class/main/gdlite/index.html',
     image: 'https://static.wikia.nocookie.net/logopedia/images/4/41/Geometry_Dash_Icon.svg/revision/latest?cb=20220220121501'
   },
   {
@@ -36,6 +36,13 @@ var games = [
     title: 'Omori',
     url: 'https://rawcdn.githack.com/genizy/web-port/4e018d7f2ca2b3d77ecfd0123d2926421e2b26a5/omori-fixed/index.html',
     image: 'https://static.wikia.nocookie.net/omori/images/8/89/Omori_Neutral_%28No_Background%29.gif/revision/latest?cb=20211217073238'
+  },
+  {
+    id: 'yellow',
+    title: 'UNDERTALE YELLOW',
+    url: 'https://cdn.jsdelivr.net/gh/genizy/web-port@main/undertale-yellow/',
+    image: 'https://media.indiedb.com/images/downloads/1/115/114884/DBThumb.png'
+  }
 ]
 games.sort(function (a, b) {
   return a.title.localeCompare(b.title);
