@@ -12,6 +12,19 @@ var games = [
     image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Osu%21_Logo_2016.svg/1200px-Osu%21_Logo_2016.svg.png'
   },
   {
+    id: 'deltarune',
+    title: 'DELTARUNE',
+    description: 'the web port required a save file to verify ownership but i just used devtools lol',
+    url: 'https://deltarune.win/play/play.html',
+    image: 'https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fw0sn0rvlasw51.png'
+  },
+  {
+    id: 'undertale',
+    title: 'UNDERTALE',
+    url: 'https://undertale.win/play/play.html',
+    image: 'https://pm1.aminoapps.com/6352/aecbd1fcc0a127674f063649d88cc4f343610adb_hq.jpg'
+  },
+  {
     id: 'fnf',
     title: 'fnf (friday night funkin)',
     url: 'https://fnf.kdata1.com/2025/fnf/7500/',
